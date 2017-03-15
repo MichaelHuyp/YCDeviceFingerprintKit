@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YCDeviceFingerprint_Example' do
+  pod 'YCDeviceFingerprint', :path => '../'
+
+  target 'YCDeviceFingerprint_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

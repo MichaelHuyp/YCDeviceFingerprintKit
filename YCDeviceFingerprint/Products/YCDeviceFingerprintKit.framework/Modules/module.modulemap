@@ -1,0 +1,6 @@
+framework module YCDeviceFingerprintKit {
+  umbrella header "YCDeviceFingerprintKit.h"
+
+  export *
+  module * { export * }
+}
