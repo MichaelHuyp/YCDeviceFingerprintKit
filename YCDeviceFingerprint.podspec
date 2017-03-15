@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YCDeviceFingerprint'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'DeviceFingerprintKit'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
 # s.source_files = 'YCDeviceFingerprint/Classes/**/*'
 
-s.public_header_files = "YCDeviceFingerprint/Classes/**/*.h"
+#s.public_header_files = "YCDeviceFingerprint/Classes/**/*.h"
 s.vendored_framework = "YCDeviceFingerprint/Products/YCDeviceFingerprintKit.framework"
 
   # s.resource_bundles = {
