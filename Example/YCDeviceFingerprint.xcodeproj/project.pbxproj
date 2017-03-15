@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FD0C1C21E79489D006494B0 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD0C1C11E79489D006494B0 /* libresolv.9.tbd */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,11 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11D25DAC8F271B7B3B284C3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		11D25DAC8F271B7B3B284C3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		140BCE0AE92922F56AFFBEAE /* Pods_YCDeviceFingerprint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCDeviceFingerprint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15612A32490529F9753ACC85 /* Pods-YCDeviceFingerprint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCDeviceFingerprint_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCDeviceFingerprint_Example/Pods-YCDeviceFingerprint_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C6A3E24CB04E3463A03FAAC /* YCDeviceFingerprint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YCDeviceFingerprint.podspec; path = ../YCDeviceFingerprint.podspec; sourceTree = "<group>"; };
+		3C6A3E24CB04E3463A03FAAC /* YCDeviceFingerprint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YCDeviceFingerprint.podspec; path = ../YCDeviceFingerprint.podspec; sourceTree = "<group>"; };
 		4E2E4F709AD27A7226D21111 /* Pods-YCDeviceFingerprint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCDeviceFingerprint_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCDeviceFingerprint_Example/Pods-YCDeviceFingerprint_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD0C1C11E79489D006494B0 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		6003F58A195388D20070C39A /* YCDeviceFingerprint_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCDeviceFingerprint_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +67,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A855CF4FF8E2C936138C0538 /* Pods_YCDeviceFingerprint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCDeviceFingerprint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9837B97A2935F5F81225A9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A9837B97A2935F5F81225A9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D3D79085EA781174F26986FB /* Pods-YCDeviceFingerprint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCDeviceFingerprint_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCDeviceFingerprint_Tests/Pods-YCDeviceFingerprint_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD0C1C21E79489D006494B0 /* libresolv.9.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -130,6 +133,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FD0C1C11E79489D006494B0 /* libresolv.9.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -250,6 +254,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = MichaelHuyp;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = QFPBDT5J32;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +531,7 @@
 			baseConfigurationReference = 4E2E4F709AD27A7226D21111 /* Pods-YCDeviceFingerprint_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QFPBDT5J32;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YCDeviceFingerprint/YCDeviceFingerprint-Prefix.pch";
 				INFOPLIST_FILE = "YCDeviceFingerprint/YCDeviceFingerprint-Info.plist";
@@ -539,6 +547,7 @@
 			baseConfigurationReference = 15612A32490529F9753ACC85 /* Pods-YCDeviceFingerprint_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QFPBDT5J32;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YCDeviceFingerprint/YCDeviceFingerprint-Prefix.pch";
 				INFOPLIST_FILE = "YCDeviceFingerprint/YCDeviceFingerprint-Info.plist";

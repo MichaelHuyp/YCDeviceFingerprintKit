@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YCDeviceFingerprint'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YCDeviceFingerprint.'
+  s.version          = '0.1.1'
+  s.summary          = 'DeviceFingerprintKit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+同盾设备指纹SDK~~~~~~~~~~~~~
                        DESC
 
-  s.homepage         = 'https://github.com/MichaelHuyp/YCDeviceFingerprint'
+  s.homepage         = 'https://github.com/MichaelHuyp/YCDeviceFingerprintKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MichaelHuyp' => '86812684@qq.com' }
-  s.source           = { :git => 'https://github.com/MichaelHuyp/YCDeviceFingerprint.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MichaelHuyp/YCDeviceFingerprintKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YCDeviceFingerprint/Classes/**/*'
-  
+# s.source_files = 'YCDeviceFingerprint/Classes/**/*'
+
+s.public_header_files = "YCDeviceFingerprint/Classes/**/*.h"
+s.vendored_framework = "YCDeviceFingerprint/Products/YCDeviceFingerprintKit.framework"
+
   # s.resource_bundles = {
   #   'YCDeviceFingerprint' => ['YCDeviceFingerprint/Assets/*.png']
   # }
