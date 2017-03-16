@@ -1,5 +1,5 @@
 PODS:
-  - YCDeviceFingerprint (1.2.0)
+  - YCDeviceFingerprint (1.3.0)
 
 DEPENDENCIES:
   - YCDeviceFingerprint (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YCDeviceFingerprint: 05a1e1081e14e170d067f51af2107afa73e2fc1f
+  YCDeviceFingerprint: a2049df2dc21ac50b7591d7427cd2e0919d8020f
 
 PODFILE CHECKSUM: f9a937c081e4ea79d37a0a9e2544a7a66c7fbd97
 
